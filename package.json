@@ -1,0 +1,21 @@
+{
+  "name": "league-pass-api",
+  "version": "1.0.0",
+  "description": "League pass api for seeing if NBA games are worth watching.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "scrape": "node scrape.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.13",
+    "puppeteer": "^1.11.0",
+    "request": "^2.72.0",
+    "request-promise": "^4.2.2"
+  }
+}
