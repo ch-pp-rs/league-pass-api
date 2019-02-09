@@ -4,7 +4,6 @@
   "description": "League pass api for seeing if NBA games are worth watching.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
     "scrape": "node scrape.js"
   },
   "author": "",
